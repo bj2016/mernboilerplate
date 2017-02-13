@@ -1,0 +1,33 @@
+{
+  "name": "mernboilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serveit": "webpack && node ./server"
+  },
+  "dependencies": {
+    "express": "^4.14.1",
+    "mongoose": "^4.8.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-router": "next",
+    "react-router-dom": "next"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-react": "^1.0.0",
+    "babel-plugin-react-html-attrs": "^2.0.0",
+    "babel-plugin-trace": "^1.0.0",
+    "babel-plugin-transform-class-properties": "^6.22.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "webpack": "^2.2.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
